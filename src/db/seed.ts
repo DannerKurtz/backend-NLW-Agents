@@ -7,11 +7,14 @@ await reset(db, schemas);
 await seed(db, schemas).refine((f) => {
   return {
     rooms: {
-      count: 30,
+      count: 5,
       columns: {
         name: f.fullName(),
         description: f.loremIpsum(),
       },
+    },
+    questions: {
+      count: 15,
     },
   };
 });
