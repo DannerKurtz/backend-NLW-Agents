@@ -15,6 +15,20 @@
       "when": 1752025039723,
       "tag": "0001_numerous_ronan",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752378880120,
+      "tag": "0002_yellow_polaris",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752382326303,
+      "tag": "0003_slow_meltdown",
+      "breakpoints": true
     }
   ]
 }

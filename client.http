@@ -29,16 +29,18 @@ Content-Type: application/json
 
 #Get room questions
 # @name getRoomQuestions
-GET {{baseUrl}}/rooms/{{roomId}}/questions
+GET {{baseUrl}}/rooms/40c66a6b-73ed-4331-bb01-cdfd551aebe8/questions
 
 ###
 
 #Create room questions
 # @name createRoomQuestions
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+POST {{baseUrl}}/rooms/40c66a6b-73ed-4331-bb01-cdfd551aebe8/questions
 Content-Type: application/json
 
 {
-"question": "teste de question"
+"question": "o que é gato"
 }
+
+
 
